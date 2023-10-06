@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#sj-main {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#sj-main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 120px;
+  border-bottom: 1px solid black;
+  background-color: RGB(254, 192, 22);
+}
+#sj-main nav #links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#sj-main nav #links a {
+  text-decoration: none;
+  color: black;
+}
+#sj-main header {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  padding: 120px;
+  background-color: RGB(254, 192, 22);
+}
+#sj-main header #content {
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  font-size: 1.6vw;
+}
+#sj-main header #content h1 {
+  font-size: 7vw;
+}
+#sj-main header svg {
+  position: absolute;
+  top: 0;
+  right: -30%;
+  height: 100%;
+}
+#main1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 150px;
+  padding-bottom: 50px;
+}
+#main1 > div {
+  width: 30%;
+}
+#main2 {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 80px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+}
+#main2 #row {
+  width: 60%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+#main2 #row div {
+  padding: 20px;
+  line-height: 10px;
+}
+#main2 #row img {
+  height: 100%;
+  width: 25%;
+  object-fit: cover;
+}
